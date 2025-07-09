@@ -2,416 +2,916 @@
   {
     "id": "professional-two-column",
     "name": "Professional Two-Column",
-    "html": "<table style=\"width: 100%; max-width: 400px; font-family: Arial, sans-serif; font-size: 14px; color: #333; border-collapse: collapse;\"><tr><td style=\"padding-right: 15px; vertical-align: top; width: 80px;\"><img src=\"{logo}\" width=\"80\" height=\"80\" alt=\"Company Logo\" style=\"display: block; border-radius: 8px; object-fit: cover;\"></td><td style=\"vertical-align: top; padding: 0;\"><strong style=\"font-size: 16px; color: #1a1a1a; display: block; margin-bottom: 2px;\">{name}</strong><span style=\"display: block; color: #555; margin-bottom: 2px;\">{title}</span><span style=\"display: block; color: #777; margin-bottom: 5px;\">{company}</span><span style=\"display: block; margin-bottom: 2px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span></td></tr></table>"
+    "html": "<table style=\"width: 100%; max-width: 420px; font-family: 'Inter', sans-serif; font-size: 14px; color: #333; border-collapse: collapse;\"><link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\" rel=\"stylesheet\"><tr><td style=\"padding-right: 20px; vertical-align: top; width: 90px;\"><img src=\"{logo}\" width=\"90\" height=\"90\" alt=\"Company Logo\" style=\"display: block; border-radius: 10px; object-fit: cover; border: 1px solid #eee;\"></td><td style=\"vertical-align: top; padding: 0;\"><strong style=\"font-size: 18px; color: #1a1a1a; display: block; margin-bottom: 2px; font-weight: 700;\">{name}</strong><span style=\"display: block; color: #555; margin-bottom: 3px; font-weight: 600;\">{title}</span><span style=\"display: block; color: #777; margin-bottom: 8px;\">{company}</span><span style=\"display: block; margin-bottom: 3px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block; margin-bottom: 3px;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><span style=\"display: block; color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
   },
   {
     "id": "minimalist-elegance",
     "name": "Minimalist Elegance",
-    "html": "<div style=\"font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size: 18px; color: #000; display: block; margin-bottom: 2px;\">{name}</strong><span style=\"display: block; color: #555; margin-bottom: 5px;\">{title} | {company}</span><div style=\"border-top: 1px solid #eee; margin: 8px 0;\"></div><span style=\"display: block;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span></div>"
+    "html": "<div style=\"font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 14px; color: #333; line-height: 1.6;\"><strong style=\"font-size: 20px; color: #000; display: block; margin-bottom: 3px; font-weight: 600;\">{name}</strong><span style=\"display: block; color: #555; margin-bottom: 8px;\">{title} | {company}</span><div style=\"border-top: 1px solid #ddd; margin: 10px 0;\"></div><span style=\"display: block; margin-bottom: 3px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block; margin-bottom: 3px;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><span style=\"display: block; color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
     "id": "corporate-clean",
     "name": "Corporate Clean",
-    "html": "<table style=\"width: 100%; max-width: 350px; font-family: Arial, sans-serif; font-size: 13px; color: #444; border-collapse: collapse;\"><tr><td style=\"padding: 0;\"><strong style=\"font-size: 15px; color: #222; display: block; margin-bottom: 3px;\">{name}</strong><span style=\"display: block; color: #666; margin-bottom: 3px;\">{title}</span><span style=\"display: block; color: #888; margin-bottom: 8px;\">{company}</span><span style=\"display: block;\">📞 <a href=\"tel:{phone}\" style=\"color: #444; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #444; text-decoration: none;\">{email}</a></span></td></tr></table>"
+    "html": "<table style=\"width: 100%; max-width: 380px; font-family: 'Roboto', sans-serif; font-size: 13px; color: #444; border-collapse: collapse;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap\" rel=\"stylesheet\"><tr><td style=\"padding: 0;\"><strong style=\"font-size: 16px; color: #222; display: block; margin-bottom: 3px; font-weight: 500;\">{name}</strong><span style=\"display: block; color: #666; margin-bottom: 3px;\">{title}</span><span style=\"display: block; color: #888; margin-bottom: 10px;\">{company}</span><span style=\"display: block; margin-bottom: 3px;\">📞 <a href=\"tel:{phone}\" style=\"color: #444; text-decoration: none;\">{phone}</a></span><span style=\"display: block; margin-bottom: 3px;\">✉️ <a href=\"mailto:{email}\" style=\"color: #444; text-decoration: none;\">{email}</a></span><span style=\"display: block; color: #888; font-size: 12px;\">📍 {address}</span></td></tr></table>"
   },
   {
     "id": "accent-bar-modern",
     "name": "Accent Bar Modern",
-    "html": "<div style=\"border-left: 3px solid #007bff; padding-left: 12px; font-family: 'Calibri', sans-serif; font-size: 14px; color: #333; line-height: 1.4;\"><strong style=\"font-size: 16px; color: #1a1a1a; display: block; margin-bottom: 1px;\">{name}</strong><span style=\"display: block; color: #555; margin-bottom: 1px;\">{title}</span><span style=\"display: block; color: #777; margin-bottom: 5px;\">{company}</span><span style=\"display: block;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span></div>"
+    "html": "<div style=\"border-left: 4px solid #007bff; padding-left: 15px; font-family: 'Calibri', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size: 17px; color: #1a1a1a; display: block; margin-bottom: 2px; font-weight: bold;\">{name}</strong><span style=\"display: block; color: #555; margin-bottom: 2px;\">{title}</span><span style=\"display: block; color: #777; margin-bottom: 8px;\">{company}</span><span style=\"display: block; margin-bottom: 3px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block; margin-bottom: 3px;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><span style=\"display: block; color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
     "id": "stacked-professional",
     "name": "Stacked Professional",
-    "html": "<div style=\"font-family: Verdana, sans-serif; font-size: 13px; color: #333; line-height: 1.6;\"><img src=\"{logo}\" width=\"70\" height=\"70\" alt=\"Company Logo\" style=\"display: block; margin-bottom: 10px; border-radius: 50%; object-fit: cover;\"><strong style=\"font-size: 16px; color: #111; display: block;\">{name}</strong><span style=\"display: block; color: #444;\">{title}</span><span style=\"display: block; color: #666; margin-bottom: 8px;\">{company}</span><span style=\"display: block;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span></div>"
+    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 13px; color: #333; line-height: 1.6;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap\" rel=\"stylesheet\"><img src=\"{logo}\" width=\"80\" height=\"80\" alt=\"Company Logo\" style=\"display: block; margin-bottom: 12px; border-radius: 50%; object-fit: cover; border: 1px solid #eee;\"><strong style=\"font-size: 17px; color: #111; display: block; font-weight: 700;\">{name}</strong><span style=\"display: block; color: #444; margin-bottom: 2px;\">{title}</span><span style=\"display: block; color: #666; margin-bottom: 10px;\">{company}</span><span style=\"display: block; margin-bottom: 3px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block; margin-bottom: 3px;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><span style=\"display: block; color: #777; font-size: 12px;\">📍 {address}</span></div>"
   },
   {
     "id": "simple-divider",
     "name": "Simple Divider",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} | {company}<br/><div style=\"border-top: 1px solid #ccc; margin: 5px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} | {company}<br/><div style=\"border-top: 1px solid #ccc; margin: 8px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "rounded-logo-left",
-    "name": "Rounded Logo Left",
-    "html": "<table style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td><img src=\"{logo}\" width=\"70\" height=\"70\" style=\"border-radius:50%; margin-right:10px; object-fit:cover;\" alt=\"Company Logo\"/></td><td><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></td></tr></table>"
+    "id": "rounded-logo-left-modern",
+    "name": "Rounded Logo Left Modern",
+    "html": "<table style=\"font-family: 'Lato', sans-serif; font-size: 14px; color: #333; border-collapse: collapse;\"><link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap\" rel=\"stylesheet\"><tr><td style=\"padding-right: 15px; vertical-align: middle;\"><img src=\"{logo}\" width=\"70\" height=\"70\" style=\"border-radius:50%; margin-right:10px; object-fit:cover; border: 1px solid #eee;\" alt=\"Company Logo\"/></td><td style=\"vertical-align: middle;\"><strong style=\"font-size:17px; font-weight: 700;\">{name}</strong><br/><span style=\"color:#555;\">{title}</span><br/><span style=\"color:#777;\">{company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
   },
   {
-    "id": "bold-name-minimal",
-    "name": "Bold Name Minimal",
-    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:18px; font-weight:700; display:block; margin-bottom:2px;\">{name}</strong><span style=\"color:#555;\">{title} at {company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "bold-name-minimal-clean",
+    "name": "Bold Name Minimal Clean",
+    "html": "<div style=\"font-family: 'Montserrat', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:20px; font-weight:700; display:block; margin-bottom:4px; color: #2c3e50;\">{name}</strong><span style=\"color:#555; display:block; margin-bottom: 8px;\">{title} at {company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "clean-with-social",
-    "name": "Clean with Social",
-    "html": "<table style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top:8px;\"><a href=\"{linkedin}\" style=\"text-decoration:none; margin-right:5px;\" title=\"LinkedIn\"><img src=\"https://placehold.co/20x20/0A66C2/ffffff?text=in\" alt=\"LinkedIn\" style=\"vertical-align:middle;\"/></a> <a href=\"{twitter}\" style=\"text-decoration:none; margin-right:5px;\" title=\"Twitter\"><img src=\"https://placehold.co/20x20/1DA1F2/ffffff?text=t\" alt=\"Twitter\" style=\"vertical-align:middle;\"/></a> <a href=\"{website}\" style=\"text-decoration:none;\" title=\"Website\"><img src=\"https://placehold.co/20x20/333333/ffffff?text=W\" alt=\"Website\" style=\"vertical-align:middle;\"/></a></div></td></tr></table>"
+    "id": "clean-with-social-icons-detailed",
+    "name": "Clean with Social Icons Detailed",
+    "html": "<table style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span><br/><div style=\"margin-top:10px;\"><a href=\"{linkedin}\" style=\"text-decoration:none; margin-right:8px;\" title=\"LinkedIn\"><img src=\"https://placehold.co/22x22/0A66C2/ffffff?text=in\" alt=\"LinkedIn\" style=\"vertical-align:middle;\"/></a> <a href=\"{twitter}\" style=\"text-decoration:none; margin-right:8px;\" title=\"Twitter\"><img src=\"https://placehold.co/22x22/1DA1F2/ffffff?text=t\" alt=\"Twitter\" style=\"vertical-align:middle;\"/></a> <a href=\"{website}\" style=\"text-decoration:none;\" title=\"Website\"><img src=\"https://placehold.co/22x22/333333/ffffff?text=W\" alt=\"Website\" style=\"vertical-align:middle;\"/></a></div></td></tr></table>"
   },
   {
-    "id": "modern-sans-serif",
-    "name": "Modern Sans-Serif",
-    "html": "<div style=\"font-family: 'Lato', sans-serif; font-size: 14px; color: #222; line-height:1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; font-weight:700;\">{name}</strong><br/><span style=\"color:#444;\">{title}</span><br/><span style=\"color:#666;\">{company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #222; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #222; text-decoration: none;\">{email}</a></div>"
+    "id": "modern-sans-serif-bold",
+    "name": "Modern Sans-Serif Bold",
+    "html": "<div style=\"font-family: 'Lato', sans-serif; font-size: 14px; color: #222; line-height:1.6;\"><link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:18px; font-weight:700; display:block; margin-bottom:3px;\">{name}</strong><span style=\"display:block; color:#444; margin-bottom:3px;\">{title}</span><span style=\"display:block; color:#666; margin-bottom:10px;\">{company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #222; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #222; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "boxed-info",
-    "name": "Boxed Info",
-    "html": "<div style=\"border:1px solid #ddd; padding:10px; border-radius:5px; font-family: 'Roboto', sans-serif; font-size: 14px; color: #333; max-width:320px;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; display:block; margin-bottom:3px;\">{name}</strong><span style=\"color:#555;\">{title} at {company}</span><br/><div style=\"border-top:1px dashed #eee; margin:8px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "boxed-info-clean",
+    "name": "Boxed Info Clean",
+    "html": "<div style=\"border:1px solid #ddd; padding:12px; border-radius:6px; font-family: 'Roboto', sans-serif; font-size: 14px; color: #333; max-width:350px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; display:block; margin-bottom:4px; color: #1a1a1a;\">{name}</strong><span style=\"color:#555; display:block; margin-bottom:8px;\">{title} at {company}</span><div style=\"border-top:1px dashed #eee; margin:10px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "logo-top-center",
-    "name": "Logo Top Center",
-    "html": "<div style=\"text-align:center; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><img src=\"{logo}\" width=\"90\" height=\"90\" style=\"display:block; margin:0 auto 10px auto; border-radius:10px; object-fit:cover;\" alt=\"Company Logo\"/><strong style=\"font-size:16px; display:block;\">{name}</strong><span style=\"display:block; color:#555;\">{title}</span><span style=\"display:block; color:#777; margin-bottom:5px;\">{company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "logo-top-center-rounded",
+    "name": "Logo Top Center Rounded",
+    "html": "<div style=\"text-align:center; font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333; line-height: 1.6;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap\" rel=\"stylesheet\"><img src=\"{logo}\" width=\"100\" height=\"100\" style=\"display:block; margin:0 auto 12px auto; border-radius:50%; object-fit:cover; border: 2px solid #007bff;\" alt=\"Company Logo\"/><strong style=\"font-size:18px; display:block; color: #1a1a1a; font-weight: 700;\">{name}</strong><span style=\"display:block; color:#555; margin-bottom:3px;\">{title}</span><span style=\"display:block; color:#777; margin-bottom:10px;\">{company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "underline-title",
-    "name": "Underline Title",
-    "html": "<div style=\"font-family: 'Montserrat', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; display:block; margin-bottom:2px;\">{name}</strong><span style=\"display:block; border-bottom:1px solid #ccc; padding-bottom:3px; margin-bottom:5px; color:#555;\">{title}</span>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "underline-title-modern",
+    "name": "Underline Title Modern",
+    "html": "<div style=\"font-family: 'Montserrat', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:18px; display:block; margin-bottom:3px; color: #2c3e50; font-weight: 700;\">{name}</strong><span style=\"display:block; border-bottom:1px solid #ccc; padding-bottom:4px; margin-bottom:8px; color:#555;\">{title}</span>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "color-stripe-left",
-    "name": "Color Stripe Left",
-    "html": "<div style=\"display:table; width:100%; max-width:380px;\"><div style=\"display:table-cell; width:5px; background-color:#4CAF50;\"></div><div style=\"display:table-cell; padding-left:10px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div></div>"
+    "id": "color-stripe-left-bold",
+    "name": "Color Stripe Left Bold",
+    "html": "<div style=\"display:table; width:100%; max-width:400px;\"><div style=\"display:table-cell; width:6px; background-color:#4CAF50;\"></div><div style=\"display:table-cell; padding-left:15px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:17px; font-weight: bold;\">{name}</strong><br/><span style=\"color:#555;\">{title} at {company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div></div>"
   },
   {
-    "id": "professional-serif",
-    "name": "Professional Serif",
-    "html": "<div style=\"font-family: 'Merriweather', serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Merriweather&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "professional-serif-elegant",
+    "name": "Professional Serif Elegant",
+    "html": "<div style=\"font-family: 'Merriweather', serif; font-size: 14px; color: #333; line-height: 1.6;\"><link href=\"https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; font-weight: 700; color: #222;\">{name}</strong><br/><span style=\"color:#555;\">{title}</span><br/><span style=\"color:#777;\">{company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "compact-info",
-    "name": "Compact Info",
-    "html": "<div style=\"font-family: 'Roboto Condensed', sans-serif; font-size: 13px; color: #333; line-height:1.4;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:15px;\">{name}</strong> | {title}<br/>{company} | 📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "compact-info-modern",
+    "name": "Compact Info Modern",
+    "html": "<div style=\"font-family: 'Roboto Condensed', sans-serif; font-size: 13px; color: #333; line-height:1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; font-weight: 700;\">{name}</strong> | {title}<br/>{company} | 📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 12px;\">📍 {address}</span></div>"
   },
   {
-    "id": "logo-right-aligned",
-    "name": "Logo Right Aligned",
-    "html": "<table style=\"width: 100%; max-width: 400px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></td><td style=\"width:80px; text-align:right; vertical-align:top;\"><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"border-radius:8px; object-fit:cover;\" alt=\"Company Logo\"/></td></tr></table>"
+    "id": "logo-right-aligned-clean",
+    "name": "Logo Right Aligned Clean",
+    "html": "<table style=\"width: 100%; max-width: 420px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td><td style=\"width:90px; text-align:right; vertical-align:top; padding-left: 15px;\"><img src=\"{logo}\" width=\"90\" height=\"90\" style=\"border-radius:8px; object-fit:cover; border: 1px solid #eee;\" alt=\"Company Logo\"/></td></tr></table>"
   },
   {
-    "id": "vertical-line-divider",
-    "name": "Vertical Line Divider",
-    "html": "<div style=\"font-family: 'Poppins', sans-serif; font-size: 14px; color: #333; display:flex; align-items:center;\"><link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; margin-right:10px;\">{name}</strong><span style=\"border-left:1px solid #ccc; height:30px; margin-right:10px;\"></span><div>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div></div>"
+    "id": "vertical-line-divider-poppins",
+    "name": "Vertical Line Divider Poppins",
+    "html": "<div style=\"font-family: 'Poppins', sans-serif; font-size: 14px; color: #333; display:flex; align-items:center; line-height: 1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; margin-right:12px; font-weight: 600;\">{name}</strong><span style=\"border-left:1px solid #ccc; height:35px; margin-right:12px;\"></span><div><span style=\"display:block; color:#555;\">{title}</span><span style=\"display:block; color:#777;\">{company}</span><span style=\"display:block; margin-top:5px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><span style=\"display:block; color: #777; font-size: 13px;\">📍 {address}</span></div></div>"
   },
   {
-    "id": "subtle-gradient-accent",
-    "name": "Subtle Gradient Accent",
-    "html": "<div style=\"font-family: 'Inter', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; color:#2c3e50;\">{name}</strong><br/><span style=\"color:#3498db;\">{title}</span> at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "subtle-gradient-accent-inter",
+    "name": "Subtle Gradient Accent Inter",
+    "html": "<div style=\"font-family: 'Inter', sans-serif; font-size: 14px; color: #333; line-height: 1.6;\"><link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; color:#2c3e50; font-weight: 700;\">{name}</strong><br/><span style=\"color:#3498db; font-weight: 600;\">{title}</span> at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "company-first",
-    "name": "Company First",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px; color:#007bff;\">{company}</strong><br/>{name}, {title}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "company-first-bold",
+    "name": "Company First Bold",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:17px; color:#007bff; display: block; margin-bottom: 3px;\">{company}</strong><span style=\"display: block; margin-bottom: 5px;\">{name}, {title}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "clean-block-logo-top",
-    "name": "Clean Block Logo Top",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333; max-width:300px;\"><img src=\"{logo}\" width=\"100\" height=\"auto\" style=\"display:block; margin-bottom:10px;\" alt=\"Company Logo\"/><strong style=\"font-size:16px; display:block; margin-bottom:2px;\">{name}</strong><span style=\"display:block; margin-bottom:2px;\">{title}</span><span style=\"display:block; margin-bottom:5px;\">{company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "clean-block-logo-top-large",
+    "name": "Clean Block Logo Top Large",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; max-width:350px; line-height: 1.6;\"><img src=\"{logo}\" width=\"110\" height=\"auto\" style=\"display:block; margin-bottom:15px; border-radius:10px;\" alt=\"Company Logo\"/><strong style=\"font-size:18px; display:block; margin-bottom:3px; font-weight: bold;\">{name}</strong><span style=\"display:block; margin-bottom:3px; color:#555;\">{title}</span><span style=\"display:block; margin-bottom:10px; color:#777;\">{company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "modern-bold-serif",
-    "name": "Modern Bold Serif",
-    "html": "<div style=\"font-family: 'Playfair Display', serif; font-size: 15px; color: #222;\"><link href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:18px; font-weight:700; display:block; margin-bottom:3px;\">{name}</strong><span style=\"color:#555;\">{title}</span><br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #222; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #222; text-decoration: none;\">{email}</a></div>"
+    "id": "modern-bold-serif-playfair",
+    "name": "Modern Bold Serif Playfair",
+    "html": "<div style=\"font-family: 'Playfair Display', serif; font-size: 15px; color: #222; line-height: 1.6;\"><link href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:20px; font-weight:700; display:block; margin-bottom:4px;\">{name}</strong><span style=\"color:#555; display:block; margin-bottom: 8px;\">{title}</span>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #222; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #222; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "left-border-emphasis",
-    "name": "Left Border Emphasis",
-    "html": "<div style=\"border-left: 5px solid #FF5722; padding-left: 15px; font-family: 'Roboto', sans-serif; font-size: 14px; color: #333; line-height:1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; color:#111;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "left-border-emphasis-roboto",
+    "name": "Left Border Emphasis Roboto",
+    "html": "<div style=\"border-left: 6px solid #FF5722; padding-left: 18px; font-family: 'Roboto', sans-serif; font-size: 14px; color: #333; line-height:1.6;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:18px; color:#111; font-weight: 700;\">{name}</strong><br/><span style=\"color:#555;\">{title} at {company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "clean-with-website",
-    "name": "Clean with Website",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><a href=\"{website}\" style=\"color:#007bff; text-decoration:none;\">{website_display}</a></div>"
+    "id": "clean-with-website-address",
+    "name": "Clean with Website & Address",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><a href=\"{website}\" style=\"color:#007bff; text-decoration:none; display: block; margin-top: 5px;\">{website_display}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "circular-logo-center",
-    "name": "Circular Logo Center",
-    "html": "<div style=\"text-align:center; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; color: #333;\"><img src=\"{logo}\" width=\"90\" height=\"90\" style=\"border-radius:50%; margin-bottom:10px; object-fit:cover;\" alt=\"Company Logo\"/><br/><strong style=\"font-size:16px; display:block; margin-bottom:3px;\">{name}</strong><span style=\"display:block; color:#555; margin-bottom:5px;\">{title} at {company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "circular-logo-center-modern",
+    "name": "Circular Logo Center Modern",
+    "html": "<div style=\"text-align:center; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; color: #333; line-height: 1.6;\"><img src=\"{logo}\" width=\"100\" height=\"100\" style=\"border-radius:50%; margin-bottom:15px; object-fit:cover; border: 2px solid #00acc1;\" alt=\"Company Logo\"/><br/><strong style=\"font-size:18px; display:block; margin-bottom:4px; font-weight: bold;\">{name}</strong><span style=\"display:block; color:#555; margin-bottom:8px;\">{title} at {company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "professional-modern-sans",
-    "name": "Professional Modern Sans",
-    "html": "<div style=\"font-family: 'Source Sans Pro', sans-serif; font-size: 14px; color: #333; line-height:1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; color:#222;\">{name}</strong><br/><span style=\"color:#555;\">{title}</span><br/><span style=\"color:#777;\">{company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "professional-modern-sans-source",
+    "name": "Professional Modern Sans Source",
+    "html": "<div style=\"font-family: 'Source Sans Pro', sans-serif; font-size: 14px; color: #333; line-height:1.6;\"><link href=\"https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; color:#222; font-weight: 600;\">{name}</strong><br/><span style=\"color:#555; display:block; margin-bottom:2px;\">{title}</span><span style=\"color:#777; display:block; margin-bottom:8px;\">{company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "two-line-contact",
-    "name": "Two-Line Contact",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "two-line-contact-clean",
+    "name": "Two-Line Contact Clean",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "colored-title",
-    "name": "Colored Title",
-    "html": "<div style=\"font-family: 'Lato', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Lato&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/><span style=\"color:#007bff;\">{title}</span> at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "colored-title-lato",
+    "name": "Colored Title Lato",
+    "html": "<div style=\"font-family: 'Lato', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; font-weight: 700;\">{name}</strong><br/><span style=\"color:#007bff; font-weight: 600;\">{title}</span> at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "horizontal-line-break",
-    "name": "Horizontal Line Break",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<hr style=\"border:none; border-top:1px solid #ddd; margin:8px 0;\"/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "horizontal-line-break-modern",
+    "name": "Horizontal Line Break Modern",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<hr style=\"border:none; border-top:1px solid #ddd; margin:10px 0;\"/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "logo-and-details-inline",
-    "name": "Logo & Details Inline",
-    "html": "<table style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td><img src=\"{logo}\" width=\"60\" height=\"60\" style=\"margin-right:10px; border-radius:5px; object-fit:cover;\" alt=\"Company Logo\"/></td><td><strong style=\"font-size:16px;\">{name}</strong> | {title} | {company} | 📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></td></tr></table>"
+    "id": "logo-and-details-inline-compact",
+    "name": "Logo & Details Inline Compact",
+    "html": "<table style=\"font-family: 'Arial', sans-serif; font-size: 13px; color: #333;\"><tr><td><img src=\"{logo}\" width=\"60\" height=\"60\" style=\"margin-right:12px; border-radius:5px; object-fit:cover;\" alt=\"Company Logo\"/></td><td><strong style=\"font-size:15px; font-weight: bold;\">{name}</strong> | {title} | {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 12px;\">📍 {address}</span></td></tr></table>"
   },
   {
-    "id": "clean-sans-serif-bold",
-    "name": "Clean Sans-Serif Bold",
-    "html": "<div style=\"font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px; font-weight:bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "clean-sans-serif-bold-classic",
+    "name": "Clean Sans-Serif Bold Classic",
+    "html": "<div style=\"font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight:bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">� {address}</span></div>"
   },
   {
-    "id": "professional-footer",
-    "name": "Professional Footer",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 13px; color: #555;\"><strong style=\"font-size:15px; color:#222;\">{name}</strong><br/>{title} | {company}<br/><span style=\"display:block; margin-top:5px; padding-top:5px; border-top:1px solid #eee;\">📞 <a href=\"tel:{phone}\" style=\"color: #555; text-decoration: none;\">{phone}</a> &bull; ✉️ <a href=\"mailto:{email}\" style=\"color: #555; text-decoration: none;\">{email}</a></span></div>"
+    "id": "professional-footer-subtle",
+    "name": "Professional Footer Subtle",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 13px; color: #555; line-height: 1.5;\"><strong style=\"font-size:15px; color:#222; font-weight: bold;\">{name}</strong><br/>{title} | {company}<br/><span style=\"display:block; margin-top:8px; padding-top:8px; border-top:1px solid #eee;\">📞 <a href=\"tel:{phone}\" style=\"color: #555; text-decoration: none;\">{phone}</a> &bull; ✉️ <a href=\"mailto:{email}\" style=\"color: #555; text-decoration: none;\">{email}</a></span><br/><span style=\"display:block; color: #777; font-size: 12px;\">📍 {address}</span></div>"
   },
   {
-    "id": "subtle-shadow-box",
-    "name": "Subtle Shadow Box",
-    "html": "<div style=\"border:1px solid #eee; padding:10px; border-radius:5px; box-shadow:0 2px 5px rgba(0,0,0,0.05); font-family: Arial, sans-serif; font-size: 14px; color: #333; max-width:300px;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "subtle-shadow-box-modern",
+    "name": "Subtle Shadow Box Modern",
+    "html": "<div style=\"border:1px solid #eee; padding:12px; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.08); font-family: 'Arial', sans-serif; font-size: 14px; color: #333; max-width:350px; line-height: 1.6;\"><strong style=\"font-size:17px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "modern-with-line",
-    "name": "Modern with Line",
-    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<div style=\"height:1px; background-color:#ccc; margin:8px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "modern-with-line-opensans",
+    "name": "Modern with Line Open Sans",
+    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; font-weight: 600;\">{name}</strong><br/>{title}<br/>{company}<div style=\"height:1px; background-color:#ccc; margin:10px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "accent-color-name",
-    "name": "Accent Color Name",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px; color:#E67E22;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "accent-color-name-vibrant",
+    "name": "Accent Color Name Vibrant",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:17px; color:#E67E22; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "logo-below-details",
-    "name": "Logo Below Details",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333; max-width:300px;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"display:block; margin-top:10px; border-radius:5px; object-fit:cover;\" alt=\"Company Logo\"/></div>"
+    "id": "logo-below-details-centered",
+    "name": "Logo Below Details Centered",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; max-width:350px; text-align: center; line-height: 1.6;\"><strong style=\"font-size:17px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span><br/><img src=\"{logo}\" width=\"90\" height=\"90\" style=\"display:block; margin:15px auto 0 auto; border-radius:8px; object-fit:cover; border: 1px solid #eee;\" alt=\"Company Logo\"/></div>"
   },
   {
-    "id": "professional-italic-title",
-    "name": "Professional Italic Title",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/><em style=\"color:#555;\">{title}</em> at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "professional-italic-title-subtle",
+    "name": "Professional Italic Title Subtle",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/><em style=\"color:#555;\">{title}</em> at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "clean-with-social-icons",
-    "name": "Clean with Social Icons",
-    "html": "<table style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top:8px;\"><a href=\"{linkedin}\" style=\"text-decoration:none; margin-right:5px;\" title=\"LinkedIn\"><img src=\"https://placehold.co/20x20/0A66C2/ffffff?text=in\" alt=\"LinkedIn\" style=\"vertical-align:middle;\"/></a> <a href=\"{twitter}\" style=\"text-decoration:none; margin-right:5px;\" title=\"Twitter\"><img src=\"https://placehold.co/20x20/1DA1F2/ffffff?text=t\" alt=\"Twitter\" style=\"vertical-align:middle;\"/></a> <a href=\"{website}\" style=\"text-decoration:none;\" title=\"Website\"><img src=\"https://placehold.co/20x20/333333/ffffff?text=W\" alt=\"Website\" style=\"vertical-align:middle;\"/></a></div></td></tr></table>"
+    "id": "clean-with-social-icons-minimal",
+    "name": "Clean with Social Icons Minimal",
+    "html": "<table style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top:10px;\"><a href=\"{linkedin}\" style=\"text-decoration:none; margin-right:8px;\" title=\"LinkedIn\"><img src=\"https://placehold.co/20x20/0A66C2/ffffff?text=in\" alt=\"LinkedIn\" style=\"vertical-align:middle;\"/></a> <a href=\"{twitter}\" style=\"text-decoration:none; margin-right:8px;\" title=\"Twitter\"><img src=\"https://placehold.co/20x20/1DA1F2/ffffff?text=t\" alt=\"Twitter\" style=\"vertical-align:middle;\"/></a> <a href=\"{website}\" style=\"text-decoration:none;\" title=\"Website\"><img src=\"https://placehold.co/20x20/333333/ffffff?text=W\" alt=\"Website\" style=\"vertical-align:middle;\"/></a></div></td></tr></table>"
   },
   {
-    "id": "modern-minimal-logo",
-    "name": "Modern Minimal Logo",
-    "html": "<table style=\"width: 100%; max-width: 350px; font-family: 'Inter', sans-serif; font-size: 14px; color: #333; border-collapse: collapse;\"><link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap\" rel=\"stylesheet\"><tr><td style=\"padding-right: 15px; vertical-align: middle;\"><img src=\"{logo}\" width=\"60\" height=\"60\" alt=\"Company Logo\" style=\"display: block; border-radius: 50%; object-fit: cover;\"></td><td style=\"vertical-align: middle; padding: 0;\"><strong style=\"font-size: 16px; color: #1a1a1a;\">{name}</strong><br/><span style=\"color: #555;\">{title}</span><br/><span style=\"color: #777;\">{company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></td></tr></table>"
+    "id": "modern-minimal-logo-inter",
+    "name": "Modern Minimal Logo Inter",
+    "html": "<table style=\"width: 100%; max-width: 380px; font-family: 'Inter', sans-serif; font-size: 14px; color: #333; border-collapse: collapse;\"><link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\" rel=\"stylesheet\"><tr><td style=\"padding-right: 18px; vertical-align: middle;\"><img src=\"{logo}\" width=\"70\" height=\"70\" alt=\"Company Logo\" style=\"display: block; border-radius: 50%; object-fit: cover; border: 1px solid #eee;\"></td><td style=\"vertical-align: middle; padding: 0;\"><strong style=\"font-size: 17px; color: #1a1a1a; font-weight: 600;\">{name}</strong><br/><span style=\"color: #555;\">{title}</span><br/><span style=\"color: #777;\">{company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></td></tr></table>"
   },
   {
-    "id": "bold-company-name",
-    "name": "Bold Company Name",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at <strong style=\"color:#0056b3;\">{company}</strong><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "bold-company-name-blue",
+    "name": "Bold Company Name Blue",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at <strong style=\"color:#0056b3;\">{company}</strong><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "clean-with-address",
-    "name": "Clean with Address",
+    "id": "clean-with-address-full",
+    "name": "Clean with Address Full",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/>📍 <span style=\"color: #555;\">{address}</span></div>"
+  },
+  {
+    "id": "professional-signature-block-roboto",
+    "name": "Professional Signature Block Roboto",
+    "html": "<div style=\"font-family: 'Roboto', sans-serif; font-size: 14px; color: #333; border: 1px solid #eee; padding: 15px; border-radius: 6px; max-width: 380px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); line-height: 1.6;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size: 18px; color: #1a1a1a; display: block; margin-bottom: 3px; font-weight: 700;\">{name}</strong><span style=\"display: block; color: #555; margin-bottom: 8px;\">{title} at {company}</span><div style=\"border-top: 1px dashed #ddd; margin: 10px 0;\"></div><span style=\"display: block; margin-bottom: 3px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block; margin-bottom: 3px;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><span style=\"display: block; color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "vertical-stacked-logo-center",
+    "name": "Vertical Stacked Logo Center",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; text-align:center; line-height: 1.6;\"><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"display:block; margin:0 auto 8px auto; border-radius:10px; object-fit:cover; border: 1px solid #eee;\" alt=\"Company Logo\"/><strong style=\"font-size:17px; display:block; font-weight: bold;\">{name}</strong><span style=\"display:block; color:#555; margin-bottom:2px;\">{title}</span><span style=\"display:block; color:#777; margin-bottom:10px;\">{company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "subtle-border-top-blue",
+    "name": "Subtle Border Top Blue",
+    "html": "<div style=\"border-top: 3px solid #007bff; padding-top: 12px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-details-only-clean",
+    "name": "Professional Details Only Clean",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "grey-background-block-soft",
+    "name": "Grey Background Block Soft",
+    "html": "<div style=\"background-color:#f9f9f9; padding:12px; border-radius:8px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; max-width:350px; line-height: 1.6;\"><strong style=\"font-size:17px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "clean-with-social-links-text",
+    "name": "Clean with Social Links Text",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span><br/><div style=\"margin-top: 10px;\"><a href=\"{linkedin}\" style=\"text-decoration: none; color: #0077B5; margin-right: 12px; font-weight: 600;\">LinkedIn</a><a href=\"{twitter}\" style=\"text-decoration: none; color: #1DA1F2; margin-right: 12px; font-weight: 600;\">Twitter</a><a href=\"{website}\" style=\"text-decoration: none; color: #444; font-weight: 600;\">Website</a></div></div>"
+  },
+  {
+    "id": "modern-name-emphasis-montserrat",
+    "name": "Modern Name Emphasis Montserrat",
+    "html": "<div style=\"font-family: 'Montserrat', sans-serif; font-size: 14px; color: #333; line-height: 1.6;\"><link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:20px; color:#2c3e50; font-weight: 700;\">{name}</strong><br/><span style=\"color:#555; display:block; margin-bottom:3px;\">{title}</span><span style=\"display:block; color:#777; margin-bottom:10px;\">{company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "simple-horizontal-layout-clean",
+    "name": "Simple Horizontal Layout Clean",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong> | {title} | {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "logo-and-name-side-by-side-detailed",
+    "name": "Logo & Name Side-by-Side Detailed",
+    "html": "<table style=\"width: 100%; max-width: 420px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"width: 80px; vertical-align: middle;\"><img src=\"{logo}\" width=\"70\" height=\"70\" style=\"border-radius: 8px; object-fit: cover; border: 1px solid #eee;\" alt=\"Company Logo\"/></td><td style=\"vertical-align: middle; padding-left: 15px;\"><strong style=\"font-size:17px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}</td></tr><tr><td colspan=\"2\" style=\"padding-top:8px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
+  },
+  {
+    "id": "classic-with-line-break-serif",
+    "name": "Classic with Line Break Serif",
+    "html": "<div style=\"font-family: 'Times New Roman', serif; font-size: 14px; color: #333; line-height: 1.6;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/><hr style=\"border:none; border-top:1px solid #ccc; margin: 10px 0;\"/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "modern-color-block-blue",
+    "name": "Modern Color Block Blue",
+    "html": "<div style=\"background-color:#e0f2f7; padding:15px; border-radius:8px; font-family: 'Roboto', sans-serif; font-size: 14px; color: #333; max-width:350px; line-height: 1.6;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; color:#007bff; font-weight: 700;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "simple-stacked-clean",
+    "name": "Simple Stacked Clean",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height:1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-contact-block-detailed",
+    "name": "Professional Contact Block Detailed",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; padding: 8px 0; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/><span style=\"display:block; margin-top:8px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display:block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><br/><span style=\"display:block; color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "logo-on-right-block-clean",
+    "name": "Logo on Right Block Clean",
+    "html": "<table style=\"width: 100%; max-width: 420px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td><td style=\"width:100px; text-align:right; vertical-align:top; padding-left: 15px;\"><img src=\"{logo}\" width=\"90\" height=\"90\" style=\"border-radius:8px; object-fit:cover; border: 1px solid #eee;\" alt=\"Company Logo\"/></td></tr></table>"
+  },
+  {
+    "id": "clean-name-title-company-full",
+    "name": "Clean Name, Title, Company Full",
+    "html": "<div style=\"font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "subtle-grey-line-modern",
+    "name": "Subtle Grey Line Modern",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<div style=\"border-top:1px solid #f0f0f0; margin:8px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-with-website-full",
+    "name": "Professional with Website Full",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><a href=\"{website}\" style=\"color:#007bff; text-decoration:none; display: block; margin-top: 5px;\">{website_display}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "modern-contact-icons-poppins",
+    "name": "Modern Contact Icons Poppins",
+    "html": "<div style=\"font-family: 'Poppins', sans-serif; font-size: 14px; color: #333; line-height: 1.6;\"><link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; font-weight: 600;\">{name}</strong><br/>{title}<br/>{company}<br/><span style=\"margin-right:15px;\">📞 <a href=\"tel:{phone}\" style=\"color:#333; text-decoration:none;\">{phone}</a></span><span style=\"margin-right:15px;\">✉️ <a href=\"mailto:{email}\" style=\"color:#333; text-decoration:none;\">{email}</a></span><span style=\"margin-right:15px;\">🌐 <a href=\"{website}\" style=\"color:#333; text-decoration:none;\">Website</a></span><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "simple-logo-top-clean",
+    "name": "Simple Logo Top Clean",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; text-align:left; line-height: 1.5;\"><img src=\"{logo}\" width=\"90\" height=\"90\" style=\"display:block; margin-bottom:12px; border-radius:8px; object-fit:cover; border: 1px solid #eee;\" alt=\"Company Logo\"/><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "bold-company-and-title-blue",
+    "name": "Bold Company & Title Blue",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/><strong style=\"color:#555;\">{title}</strong> at <strong style=\"color:#007bff;\">{company}</strong><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-stacked-info-full",
+    "name": "Professional Stacked Info Full",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height:1.6;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "minimalist-horizontal-opensans",
+    "name": "Minimalist Horizontal Open Sans",
+    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; font-weight: 600;\">{name}</strong> | {title} | {company} | 📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "clean-with-social-media-links-full",
+    "name": "Clean with Social Media Links Full",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span><br/><div style=\"margin-top: 10px;\"><a href=\"{linkedin}\" style=\"text-decoration: none; color: #0077B5; margin-right: 12px; font-weight: 600;\">LinkedIn</a><a href=\"{twitter}\" style=\"text-decoration: none; color: #1DA1F2; margin-right: 12px; font-weight: 600;\">Twitter</a><a href=\"{facebook}\" style=\"text-decoration: none; color: #1877F2; margin-right: 12px; font-weight: 600;\">Facebook</a></div></div>"
+  },
+  {
+    "id": "professional-split-line-detailed",
+    "name": "Professional Split Line Detailed",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/><div style=\"display:flex; justify-content:space-between; margin-top:8px;\"><span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span></div><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "logo-left-vertical-info-expanded",
+    "name": "Logo Left Vertical Info Expanded",
+    "html": "<table style=\"width: 100%; max-width: 420px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; border-collapse: collapse;\"><tr><td style=\"padding-right: 20px; vertical-align: top; width: 90px;\"><img src=\"{logo}\" width=\"80\" height=\"80\" alt=\"Company Logo\" style=\"display: block; border-radius: 8px; object-fit: cover; border: 1px solid #eee;\"></td><td style=\"vertical-align: top; padding: 0;\"><strong style=\"font-size: 17px; color: #1a1a1a; display: block; font-weight: bold;\">{name}</strong><span style=\"display: block; color: #555;\">{title}</span><span style=\"display: block; color: #777; margin-bottom: 8px;\">{company}</span><span style=\"display: block; margin-top: 5px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><span style=\"display: block; color: #777; font-size: 13px; margin-top: 5px;\">📍 {address}</span></td></tr></table>"
+  },
+  {
+    "id": "clean-with-accent-border-blue",
+    "name": "Clean with Accent Border Blue",
+    "html": "<div style=\"border:1px solid #ddd; border-left:5px solid #007bff; padding:12px; border-radius:8px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; max-width:350px; line-height: 1.6;\"><strong style=\"font-size:17px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "modern-line-separator-lato",
+    "name": "Modern Line Separator Lato",
+    "html": "<div style=\"font-family: 'Lato', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; font-weight: 700;\">{name}</strong><br/>{title}<br/>{company}<div style=\"border-bottom:1px solid #eee; margin:10px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-logo-bottom-large",
+    "name": "Professional Logo Bottom Large",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span><br/><img src=\"{logo}\" width=\"110\" height=\"auto\" style=\"display:block; margin-top:15px;\" alt=\"Company Logo\"/></div>"
+  },
+  {
+    "id": "bold-contact-info-prominent",
+    "name": "Bold Contact Info Prominent",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/><strong>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></strong> | <strong>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></strong><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "clean-with-company-website-full",
+    "name": "Clean with Company Website Full",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><a href=\"{website}\" style=\"color:#007bff; text-decoration:none; display: block; margin-top: 5px;\">{company_website}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "modern-minimal-contact-opensans",
+    "name": "Modern Minimal Contact Open Sans",
+    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; font-weight: 600;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-with-social-icons-placeholders",
+    "name": "Professional with Social Icons Placeholders",
+    "html": "<table style=\"width: 100%; max-width: 420px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span><br/><div style=\"margin-top:10px;\"><a href=\"{linkedin}\" style=\"text-decoration:none; margin-right:8px;\" title=\"LinkedIn\"><img src=\"https://placehold.co/22x22/0A66C2/ffffff?text=in\" alt=\"LinkedIn\" style=\"vertical-align:middle;\"/></a> <a href=\"{twitter}\" style=\"text-decoration:none; margin-right:8px;\" title=\"Twitter\"><img src=\"https://placehold.co/22x22/1DA1F2/ffffff?text=t\" alt=\"Twitter\" style=\"vertical-align:middle;\"/></a> <a href=\"{website}\" style=\"text-decoration:none;\" title=\"Website\"><img src=\"https://placehold.co/22x22/333333/ffffff?text=W\" alt=\"Website\" style=\"vertical-align:middle;\"/></a></div></td></tr></table>"
+  },
+  {
+    "id": "clean-two-line-contact-full",
+    "name": "Clean Two-Line Contact Full",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "elegant-serif-signature-georgia",
+    "name": "Elegant Serif Signature Georgia",
+    "html": "<div style=\"font-family: 'Georgia', serif; font-size: 14px; color: #333; line-height: 1.6;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-with-logo-and-social-full",
+    "name": "Professional with Logo and Social Full",
+    "html": "<table style=\"width: 100%; max-width: 420px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"width: 90px; vertical-align: top;\"><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"border-radius: 8px; object-fit: cover; border: 1px solid #eee;\" alt=\"Company Logo\"/></td><td style=\"padding-left: 18px; vertical-align: top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span><br/><div style=\"margin-top:10px;\"><a href=\"{linkedin}\" style=\"text-decoration:none; margin-right:8px;\" title=\"LinkedIn\"><img src=\"https://placehold.co/22x22/0A66C2/ffffff?text=in\" alt=\"LinkedIn\" style=\"vertical-align:middle;\"/></a> <a href=\"{twitter}\" style=\"text-decoration:none;\" title=\"Twitter\"><img src=\"https://placehold.co/22x22/1DA1F2/ffffff?text=t\" alt=\"Twitter\" style=\"vertical-align:middle;\"/></a></div></td></tr></table>"
+  },
+  {
+    "id": "modern-compact-signature-opensans",
+    "name": "Modern Compact Signature Open Sans",
+    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 13px; color: #333; line-height:1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:15px; font-weight: 600;\">{name}</strong> | {title} | {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 12px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-bordered-contact-clean",
+    "name": "Professional Bordered Contact Clean",
+    "html": "<div style=\"border:1px solid #ccc; padding:12px; border-radius:8px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; max-width:350px; line-height: 1.6;\"><strong style=\"font-size:17px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "clean-with-accent-text-blue",
+    "name": "Clean with Accent Text Blue",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/><span style=\"color:#007bff; font-weight: 600;\">{title}</span> at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-centered-logo-full",
+    "name": "Professional Centered Logo Full",
+    "html": "<div style=\"text-align:center; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.6;\"><img src=\"{logo}\" width=\"100\" height=\"100\" style=\"display:block; margin:0 auto 15px auto; border-radius:50%; object-fit:cover; border: 2px solid #00acc1;\" alt=\"Company Logo\"/><strong style=\"font-size:18px; display:block; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "modern-thin-line-roboto",
+    "name": "Modern Thin Line Roboto",
+    "html": "<div style=\"font-family: 'Roboto', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; font-weight: 600;\">{name}</strong><br/>{title}<br/>{company}<div style=\"border-bottom:1px solid #ddd; margin:8px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-contact-details-clean",
+    "name": "Professional Contact Details Clean",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "clean-with-social-media-text-only",
+    "name": "Clean with Social Media Text Only",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span><br/><div style=\"margin-top: 10px;\"><a href=\"{linkedin}\" style=\"text-decoration: none; color: #0077B5; margin-right: 12px; font-weight: 600;\">LinkedIn</a><a href=\"{twitter}\" style=\"text-decoration: none; color: #1DA1F2; margin-right: 12px; font-weight: 600;\">Twitter</a></div></div>"
+  },
+  {
+    "id": "professional-minimal-right-logo",
+    "name": "Professional Minimal Right Logo",
+    "html": "<table style=\"width: 100%; max-width: 400px; font-family: 'Inter', sans-serif; font-size: 14px; color: #333; border-collapse: collapse;\"><link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap\" rel=\"stylesheet\"><tr><td style=\"vertical-align: top; padding-right: 15px;\"><strong style=\"font-size: 16px; color: #1a1a1a; display: block; margin-bottom: 2px;\">{name}</strong><span style=\"display: block; color: #555; margin-bottom: 5px;\">{title} at {company}</span><span style=\"display: block; margin-bottom: 2px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span></td><td style=\"vertical-align: top; width: 70px;\"><img src=\"{logo}\" width=\"70\" height=\"70\" alt=\"Company Logo\" style=\"display: block; border-radius: 8px; object-fit: cover;\"></td></tr></table>"
+  },
+  {
+    "id": "elegant-serif-with-address",
+    "name": "Elegant Serif with Address",
+    "html": "<div style=\"font-family: 'Georgia', serif; font-size: 14px; color: #333; line-height: 1.6;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "modern-gradient-bar",
+    "name": "Modern Gradient Bar",
+    "html": "<div style=\"border-left: 5px solid; border-image: linear-gradient(to bottom, #007bff, #00c6ff) 1; padding-left: 15px; font-family: 'Calibri', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size: 17px; color: #1a1a1a; display: block; margin-bottom: 2px; font-weight: bold;\">{name}</strong><span style=\"display: block; color: #555; margin-bottom: 2px;\">{title}</span><span style=\"display: block; color: #777; margin-bottom: 8px;\">{company}</span><span style=\"display: block; margin-bottom: 3px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><span style=\"display: block; color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "clean-minimal-no-logo",
+    "name": "Clean Minimal No Logo",
+    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; font-weight: 600;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-boxed-with-logo",
+    "name": "Professional Boxed with Logo",
+    "html": "<table style=\"border:1px solid #ccc; padding:15px; font-family: 'Calibri', sans-serif; font-size: 14px; color: #333; max-width:400px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);\"><tr><td style=\"padding-right:15px; vertical-align: top;\"><img src=\"{logo}\" width=\"70\" height=\"70\" style=\"border-radius:8px; object-fit:cover; border: 1px solid #eee;\" alt=\"Company Logo\"/></td><td style=\"vertical-align: top;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
+  },
+  {
+    "id": "signature-line-modern",
+    "name": "Signature Line Modern",
+    "html": "<div style=\"border-top:1px solid #ccc; padding-top:10px; font-family: 'Georgia', serif; font-size: 14px; color: #222; line-height: 1.6;\"><strong style=\"font-size:17px; font-weight: bold;\">{name}</strong> | {title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #222; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #222; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "left-highlight-bar-vibrant",
+    "name": "Left Highlight Bar Vibrant",
+    "html": "<div style=\"border-left: 5px solid #2ECC71; padding-left: 15px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "clean-left-logo-rounded",
+    "name": "Clean Left Logo Rounded",
+    "html": "<table style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333;\"><tr><td><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"border-radius:50%; margin-right:15px; object-fit:cover; border: 1px solid #eee;\" alt=\"Company Logo\" /></td><td><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
+  },
+  {
+    "id": "minimal-center-bold",
+    "name": "Minimal Center Bold",
+    "html": "<div style=\"text-align:center; font-family: 'Helvetica', sans-serif; font-size: 14px; color: #000; line-height: 1.6;\"><img src=\"{logo}\" width=\"90\" height=\"90\" style=\"border-radius:50%; margin-bottom:12px; object-fit:cover; border: 2px solid #ddd;\" alt=\"Company Logo\"/><br/><strong style=\"font-size:18px; font-weight: bold;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #000; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #000; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "modern-bar-accent",
+    "name": "Modern Bar Accent",
+    "html": "<div style=\"border-left: 5px solid #4A90E2; padding-left: 15px; font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:17px; font-weight: bold;\">{name}</strong><br/>{title} at <span style='color:#4A90E2; font-weight: 600;'>{company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "color-highlight-verdana",
+    "name": "Color Highlight Verdana",
+    "html": "<div style=\"font-family: 'Verdana', sans-serif; font-size: 13px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; color:#2C3E50; font-weight: bold;\">{name}</strong><br/><span style=\"color:#2980B9; font-weight: 600;\">{title}</span> at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 12px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "bordered-block-tahoma",
+    "name": "Bordered Block Tahoma",
+    "html": "<div style=\"border:1px solid #ddd; padding:12px; font-family: 'Tahoma', sans-serif; font-size: 14px; color: #444; max-width:350px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); line-height: 1.6;\"><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"float:right; margin-left:15px; border-radius:8px; object-fit:cover; border: 1px solid #eee;\" alt=\"Company Logo\"/><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #444; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #444; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "google-font-roboto-clean",
+    "name": "Roboto Clean",
+    "html": "<link href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap' rel='stylesheet'><div style='font-family: Roboto, Arial, sans-serif; font-size: 14px; color: #333; line-height: 1.5;'><strong style='font-size:16px; font-weight: 500;'>{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "signature-line-georgia",
+    "name": "Signature Line Georgia",
+    "html": "<div style=\"border-top:1px solid #ccc; padding-top:10px; font-family: 'Georgia', serif; font-size: 14px; color: #222; line-height: 1.6;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong> | {title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #222; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #222; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "boxed-with-logo-calibri",
+    "name": "Boxed with Logo Calibri",
+    "html": "<table style=\"border:1px solid #ccc; padding:12px; font-family: 'Calibri', sans-serif; font-size: 14px; color: #333; max-width:350px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);\"><tr><td style=\"padding-right:15px; vertical-align: top;\"><img src=\"{logo}\" width=\"60\" height=\"60\" style=\"margin-right:10px; border-radius:8px; object-fit:cover; border: 1px solid #eee;\" alt=\"Company Logo\"/></td><td style=\"vertical-align: top;\"><strong style=\"font-size:15px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
+  },
+  {
+    "id": "left-highlight-bar-arial",
+    "name": "Left Highlight Bar Arial",
+    "html": "<div style=\"border-left: 4px solid #2ECC71; padding-left: 15px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:16px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "clean-no-logo-simple",
+    "name": "Clean No Logo Simple",
+    "html": "<div style=\"font-family: 'Arial', sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size:15px; font-weight: bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-clean-with-social-icons",
+    "name": "Professional Clean with Social Icons",
+    "html": "<table style=\"width: 100%; max-width: 420px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span><br/><div style=\"margin-top:10px;\"><a href=\"{linkedin}\" style=\"text-decoration:none; margin-right:8px;\" title=\"LinkedIn\"><img src=\"https://placehold.co/22x22/0A66C2/ffffff?text=in\" alt=\"LinkedIn\" style=\"vertical-align:middle;\"/></a> <a href=\"{twitter}\" style=\"text-decoration:none; margin-right:8px;\" title=\"Twitter\"><img src=\"https://placehold.co/22x22/1DA1F2/ffffff?text=t\" alt=\"Twitter\" style=\"vertical-align:middle;\"/></a> <a href=\"{website}\" style=\"text-decoration:none;\" title=\"Website\"><img src=\"https://placehold.co/22x22/333333/ffffff?text=W\" alt=\"Website\" style=\"vertical-align:middle;\"/></a></div></td></tr></table>"
+  },
+  {
+    "id": "modern-elegant-minimalist",
+    "name": "Modern Elegant Minimalist",
+    "html": "<div style=\"font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 14px; color: #333; line-height: 1.5;\"><strong style=\"font-size: 18px; color: #000; display: block; margin-bottom: 2px;\">{name}</strong><span style=\"display: block; color: #555; margin-bottom: 5px;\">{title} | {company}</span><div style=\"border-top: 1px solid #eee; margin: 8px 0;\"></div><span style=\"display: block;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "corporate-clean-classic",
+    "name": "Corporate Clean Classic",
+    "html": "<table style=\"width: 100%; max-width: 350px; font-family: Arial, sans-serif; font-size: 13px; color: #444; border-collapse: collapse;\"><tr><td style=\"padding: 0;\"><strong style=\"font-size: 15px; color: #222; display: block; margin-bottom: 3px;\">{name}</strong><span style=\"display: block; color: #666; margin-bottom: 3px;\">{title}</span><span style=\"display: block; color: #888; margin-bottom: 8px;\">{company}</span><span style=\"display: block;\">📞 <a href=\"tel:{phone}\" style=\"color: #444; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #444; text-decoration: none;\">{email}</a></span><br/><span style=\"color: #888; font-size: 12px;\">📍 {address}</span></td></tr></table>"
+  },
+  {
+    "id": "accent-bar-modern-clean",
+    "name": "Accent Bar Modern Clean",
+    "html": "<div style=\"border-left: 3px solid #007bff; padding-left: 12px; font-family: 'Calibri', sans-serif; font-size: 14px; color: #333; line-height: 1.4;\"><strong style=\"font-size: 16px; color: #1a1a1a; display: block; margin-bottom: 1px;\">{name}</strong><span style=\"display: block; color: #555; margin-bottom: 1px;\">{title}</span><span style=\"display: block; color: #777; margin-bottom: 5px;\">{company}</span><span style=\"display: block;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "stacked-professional-logo-top",
+    "name": "Stacked Professional Logo Top",
+    "html": "<div style=\"font-family: Verdana, sans-serif; font-size: 13px; color: #333; line-height: 1.6;\"><img src=\"{logo}\" width=\"70\" height=\"70\" alt=\"Company Logo\" style=\"display: block; margin-bottom: 10px; border-radius: 50%; object-fit: cover;\"><strong style=\"font-size: 16px; color: #111; display: block;\">{name}</strong><span style=\"display: block; color: #444;\">{title}</span><span style=\"display: block; color: #666; margin-bottom: 8px;\">{company}</span><span style=\"display: block;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><br/><span style=\"color: #777; font-size: 12px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "simple-divider-horizontal",
+    "name": "Simple Divider Horizontal",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} | {company}<br/><div style=\"border-top: 1px solid #ccc; margin: 5px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "rounded-logo-left-simple",
+    "name": "Rounded Logo Left Simple",
+    "html": "<table style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td><img src=\"{logo}\" width=\"70\" height=\"70\" style=\"border-radius:50%; margin-right:10px; object-fit:cover;\" alt=\"Company Logo\"/></td><td><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
+  },
+  {
+    "id": "bold-name-minimal-opensans",
+    "name": "Bold Name Minimal Open Sans",
+    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:18px; font-weight:700; display:block; margin-bottom:2px;\">{name}</strong><span style=\"color:#555;\">{title} at {company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "clean-with-social-simple",
+    "name": "Clean with Social Simple",
+    "html": "<table style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top:8px;\"><a href=\"{linkedin}\" style=\"text-decoration:none; margin-right:5px;\">🔗 LinkedIn</a> <a href=\"{twitter}\" style=\"text-decoration:none;\">🐦 Twitter</a></div><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
+  },
+  {
+    "id": "modern-sans-serif-lato",
+    "name": "Modern Sans-Serif Lato",
+    "html": "<div style=\"font-family: 'Lato', sans-serif; font-size: 14px; color: #222; line-height:1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; font-weight:700;\">{name}</strong><br/><span style=\"color:#444;\">{title}</span><br/><span style=\"color:#666;\">{company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #222; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #222; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "boxed-info-roboto",
+    "name": "Boxed Info Roboto",
+    "html": "<div style=\"border:1px solid #ddd; padding:10px; border-radius:5px; font-family: 'Roboto', sans-serif; font-size: 14px; color: #333; max-width:320px;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; display:block; margin-bottom:3px;\">{name}</strong><span style=\"color:#555;\">{title} at {company}</span><br/><div style=\"border-top:1px dashed #eee; margin:8px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "logo-top-center-simple",
+    "name": "Logo Top Center Simple",
+    "html": "<div style=\"text-align:center; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><img src=\"{logo}\" width=\"90\" height=\"90\" style=\"display:block; margin:0 auto 10px auto; border-radius:10px; object-fit:cover;\" alt=\"Company Logo\"/><strong style=\"font-size:16px; display:block;\">{name}</strong><span style=\"display:block; color:#555;\">{title}</span><span style=\"display:block; color:#777; margin-bottom:5px;\">{company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "underline-title-montserrat",
+    "name": "Underline Title Montserrat",
+    "html": "<div style=\"font-family: 'Montserrat', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; display:block; margin-bottom:2px;\">{name}</strong><span style=\"display:block; border-bottom:1px solid #ccc; padding-bottom:3px; margin-bottom:5px; color:#555;\">{title}</span>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "color-stripe-left-arial",
+    "name": "Color Stripe Left Arial",
+    "html": "<div style=\"display:table; width:100%; max-width:380px;\"><div style=\"display:table-cell; width:5px; background-color:#4CAF50;\"></div><div style=\"display:table-cell; padding-left:10px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div></div>"
+  },
+  {
+    "id": "professional-serif-merriweather",
+    "name": "Professional Serif Merriweather",
+    "html": "<div style=\"font-family: 'Merriweather', serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Merriweather&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "compact-info-roboto-condensed",
+    "name": "Compact Info Roboto Condensed",
+    "html": "<div style=\"font-family: 'Roboto Condensed', sans-serif; font-size: 13px; color: #333; line-height:1.4;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:15px;\">{name}</strong> | {title}<br/>{company} | 📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 12px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "logo-right-aligned-arial",
+    "name": "Logo Right Aligned Arial",
+    "html": "<table style=\"width: 100%; max-width: 400px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td><td style=\"width:80px; text-align:right; vertical-align:top;\"><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"border-radius:8px; object-fit:cover;\" alt=\"Company Logo\"/></td></tr></table>"
+  },
+  {
+    "id": "vertical-line-divider-poppins-detailed",
+    "name": "Vertical Line Divider Poppins Detailed",
+    "html": "<div style=\"font-family: 'Poppins', sans-serif; font-size: 14px; color: #333; display:flex; align-items:center;\"><link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; margin-right:10px;\">{name}</strong><span style=\"border-left:1px solid #ccc; height:30px; margin-right:10px;\"></span><div>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div></div>"
+  },
+  {
+    "id": "subtle-gradient-accent-inter-clean",
+    "name": "Subtle Gradient Accent Inter Clean",
+    "html": "<div style=\"font-family: 'Inter', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; color:#2c3e50;\">{name}</strong><br/><span style=\"color:#3498db;\">{title}</span> at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "company-first-arial",
+    "name": "Company First Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px; color:#007bff;\">{company}</strong><br/>{name}, {title}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "clean-block-logo-top-arial",
+    "name": "Clean Block Logo Top Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333; max-width:300px;\"><img src=\"{logo}\" width=\"100\" height=\"auto\" style=\"display:block; margin-bottom:10px;\" alt=\"Company Logo\"/><strong style=\"font-size:16px; display:block; margin-bottom:2px;\">{name}</strong><span style=\"display:block; margin-bottom:2px;\">{title}</span><span style=\"display:block; margin-bottom:5px;\">{company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "modern-bold-serif-playfair-display",
+    "name": "Modern Bold Serif Playfair Display",
+    "html": "<div style=\"font-family: 'Playfair Display', serif; font-size: 15px; color: #222;\"><link href=\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:18px; font-weight:700; display:block; margin-bottom:3px;\">{name}</strong><span style=\"color:#555;\">{title}</span><br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #222; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #222; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "left-border-emphasis-roboto-full",
+    "name": "Left Border Emphasis Roboto Full",
+    "html": "<div style=\"border-left: 5px solid #FF5722; padding-left: 15px; font-family: 'Roboto', sans-serif; font-size: 14px; color: #333; line-height:1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:17px; color:#111;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "clean-with-website-arial",
+    "name": "Clean with Website Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><a href=\"{website}\" style=\"color:#007bff; text-decoration:none;\">{website_display}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "circular-logo-center-helvetica",
+    "name": "Circular Logo Center Helvetica",
+    "html": "<div style=\"text-align:center; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; color: #333;\"><img src=\"{logo}\" width=\"90\" height=\"90\" style=\"border-radius:50%; margin-bottom:10px; object-fit:cover;\" alt=\"Company Logo\"/><br/><strong style=\"font-size:16px; display:block; margin-bottom:3px;\">{name}</strong><span style=\"display:block; color:#555; margin-bottom:5px;\">{title} at {company}</span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-modern-sans-source-pro",
+    "name": "Professional Modern Sans Source Pro",
+    "html": "<div style=\"font-family: 'Source Sans Pro', sans-serif; font-size: 14px; color: #333; line-height:1.5;\"><link href=\"https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; color:#222;\">{name}</strong><br/><span style=\"color:#555;\">{title}</span><br/><span style=\"color:#777;\">{company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "two-line-contact-arial",
+    "name": "Two-Line Contact Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "colored-title-lato-full",
+    "name": "Colored Title Lato Full",
+    "html": "<div style=\"font-family: 'Lato', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Lato&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/><span style=\"color:#007bff;\">{title}</span> at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "horizontal-line-break-arial",
+    "name": "Horizontal Line Break Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<hr style=\"border:none; border-top:1px solid #ddd; margin:8px 0;\"/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "logo-and-details-inline-arial",
+    "name": "Logo & Details Inline Arial",
+    "html": "<table style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td><img src=\"{logo}\" width=\"60\" height=\"60\" style=\"margin-right:10px; border-radius:5px; object-fit:cover;\" alt=\"Company Logo\"/></td><td><strong style=\"font-size:16px;\">{name}</strong> | {title} | {company} | 📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
+  },
+  {
+    "id": "clean-sans-serif-bold-helvetica",
+    "name": "Clean Sans-Serif Bold Helvetica",
+    "html": "<div style=\"font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px; font-weight:bold;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-footer-arial",
+    "name": "Professional Footer Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 13px; color: #555;\"><strong style=\"font-size:15px; color:#222;\">{name}</strong><br/>{title} | {company}<br/><span style=\"display:block; margin-top:5px; padding-top:5px; border-top:1px solid #eee;\">📞 <a href=\"tel:{phone}\" style=\"color: #555; text-decoration: none;\">{phone}</a> &bull; ✉️ <a href=\"mailto:{email}\" style=\"color: #555; text-decoration: none;\">{email}</a></span><br/><span style=\"color: #777; font-size: 12px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "subtle-shadow-box-arial",
+    "name": "Subtle Shadow Box Arial",
+    "html": "<div style=\"border:1px solid #eee; padding:10px; border-radius:5px; box-shadow:0 2px 5px rgba(0,0,0,0.05); font-family: Arial, sans-serif; font-size: 14px; color: #333; max-width:300px;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "modern-with-line-opensans-full",
+    "name": "Modern with Line Open Sans Full",
+    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<div style=\"height:1px; background-color:#ccc; margin:8px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "accent-color-name-arial",
+    "name": "Accent Color Name Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px; color:#E67E22;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "logo-below-details-arial",
+    "name": "Logo Below Details Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333; max-width:300px;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"display:block; margin-top:10px; border-radius:5px; object-fit:cover;\" alt=\"Company Logo\"/><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "professional-italic-title-arial",
+    "name": "Professional Italic Title Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/><em style=\"color:#555;\">{title}</em> at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "clean-with-social-icons-arial",
+    "name": "Clean with Social Icons Arial",
+    "html": "<table style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top:8px;\"><a href=\"{linkedin}\" style=\"text-decoration:none; margin-right:5px;\" title=\"LinkedIn\"><img src=\"https://placehold.co/20x20/0A66C2/ffffff?text=in\" alt=\"LinkedIn\" style=\"vertical-align:middle;\"/></a> <a href=\"{twitter}\" style=\"text-decoration:none; margin-right:5px;\" title=\"Twitter\"><img src=\"https://placehold.co/20x20/1DA1F2/ffffff?text=t\" alt=\"Twitter\" style=\"vertical-align:middle;\"/></a> <a href=\"{website}\" style=\"text-decoration:none;\" title=\"Website\"><img src=\"https://placehold.co/20x20/333333/ffffff?text=W\" alt=\"Website\" style=\"vertical-align:middle;\"/></a></div><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
+  },
+  {
+    "id": "modern-minimal-logo-inter-full",
+    "name": "Modern Minimal Logo Inter Full",
+    "html": "<table style=\"width: 100%; max-width: 350px; font-family: 'Inter', sans-serif; font-size: 14px; color: #333; border-collapse: collapse;\"><link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap\" rel=\"stylesheet\"><tr><td style=\"padding-right: 15px; vertical-align: middle;\"><img src=\"{logo}\" width=\"60\" height=\"60\" alt=\"Company Logo\" style=\"display: block; border-radius: 50%; object-fit: cover;\"></td><td style=\"vertical-align: middle; padding: 0;\"><strong style=\"font-size: 16px; color: #1a1a1a;\">{name}</strong><br/><span style=\"color: #555;\">{title}</span><br/><span style=\"color: #777;\">{company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
+  },
+  {
+    "id": "bold-company-name-arial",
+    "name": "Bold Company Name Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at <strong style=\"color:#0056b3;\">{company}</strong><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
+  },
+  {
+    "id": "clean-with-address-full-arial",
+    "name": "Clean with Address Full Arial",
     "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/>📍 {address}</div>"
   },
   {
-    "id": "professional-signature-block",
-    "name": "Professional Signature Block",
-    "html": "<div style=\"font-family: 'Roboto', sans-serif; font-size: 14px; color: #333; border: 1px solid #eee; padding: 12px; border-radius: 4px; max-width: 350px;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size: 16px; color: #1a1a1a; display: block; margin-bottom: 2px;\">{name}</strong><span style=\"display: block; color: #555; margin-bottom: 5px;\">{title} at {company}</span><div style=\"border-top: 1px dashed #ddd; margin: 8px 0;\"></div><span style=\"display: block;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span></div>"
+    "id": "professional-signature-block-roboto-full",
+    "name": "Professional Signature Block Roboto Full",
+    "html": "<div style=\"font-family: 'Roboto', sans-serif; font-size: 14px; color: #333; border: 1px solid #eee; padding: 12px; border-radius: 4px; max-width: 350px;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size: 16px; color: #1a1a1a; display: block; margin-bottom: 2px;\">{name}</strong><span style=\"display: block; color: #555; margin-bottom: 5px;\">{title} at {company}</span><div style=\"border-top: 1px dashed #ddd; margin: 8px 0;\"></div><span style=\"display: block;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display:block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "vertical-stacked-logo",
-    "name": "Vertical Stacked Logo",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333; text-align:center;\"><img src=\"{logo}\" width=\"70\" height=\"70\" style=\"display:block; margin:0 auto 5px auto; border-radius:8px; object-fit:cover;\" alt=\"Company Logo\"/><strong style=\"font-size:16px; display:block;\">{name}</strong><span style=\"display:block; color:#555;\">{title}</span><span style=\"display:block; color:#777;\">{company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "vertical-stacked-logo-arial",
+    "name": "Vertical Stacked Logo Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333; text-align:center;\"><img src=\"{logo}\" width=\"70\" height=\"70\" style=\"display:block; margin:0 auto 5px auto; border-radius:8px; object-fit:cover;\" alt=\"Company Logo\"/><strong style=\"font-size:16px; display:block;\">{name}</strong><span style=\"display:block; color:#555;\">{title}</span><span style=\"display:block; color:#777;\">{company}</span><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "subtle-border-top",
-    "name": "Subtle Border Top",
-    "html": "<div style=\"border-top: 2px solid #007bff; padding-top: 10px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "subtle-border-top-arial",
+    "name": "Subtle Border Top Arial",
+    "html": "<div style=\"border-top: 2px solid #007bff; padding-top: 10px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "professional-details-only",
-    "name": "Professional Details Only",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "professional-details-only-arial",
+    "name": "Professional Details Only Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "grey-background-block",
-    "name": "Grey Background Block",
-    "html": "<div style=\"background-color:#f9f9f9; padding:10px; border-radius:5px; font-family: Arial, sans-serif; font-size: 14px; color: #333; max-width:300px;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "grey-background-block-arial",
+    "name": "Grey Background Block Arial",
+    "html": "<div style=\"background-color:#f9f9f9; padding:10px; border-radius:5px; font-family: Arial, sans-serif; font-size: 14px; color: #333; max-width:300px;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "clean-with-social-links",
-    "name": "Clean with Social Links",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top: 8px;\"><a href=\"{linkedin}\" style=\"text-decoration: none; color: #0077B5; margin-right: 10px;\">LinkedIn</a><a href=\"{twitter}\" style=\"text-decoration: none; color: #1DA1F2; margin-right: 10px;\">Twitter</a><a href=\"{website}\" style=\"text-decoration: none; color: #444;\">Website</a></div></div>"
+    "id": "clean-with-social-links-arial",
+    "name": "Clean with Social Links Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top: 8px;\"><a href=\"{linkedin}\" style=\"text-decoration: none; color: #0077B5; margin-right: 10px;\">LinkedIn</a><a href=\"{twitter}\" style=\"text-decoration: none; color: #1DA1F2; margin-right: 10px;\">Twitter</a><a href=\"{website}\" style=\"text-decoration: none; color: #444;\">Website</a></div><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "modern-name-emphasis",
-    "name": "Modern Name Emphasis",
-    "html": "<div style=\"font-family: 'Montserrat', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:18px; color:#2c3e50;\">{name}</strong><br/><span style=\"color:#555;\">{title}</span><br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "modern-name-emphasis-montserrat-full",
+    "name": "Modern Name Emphasis Montserrat Full",
+    "html": "<div style=\"font-family: 'Montserrat', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:18px; color:#2c3e50;\">{name}</strong><br/><span style=\"color:#555;\">{title}</span><br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "simple-horizontal-layout",
-    "name": "Simple Horizontal Layout",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong> | {title} | {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "simple-horizontal-layout-arial",
+    "name": "Simple Horizontal Layout Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong> | {title} | {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "logo-and-name-side-by-side",
-    "name": "Logo and Name Side-by-Side",
-    "html": "<table style=\"width: 100%; max-width: 400px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"width: 70px; vertical-align: middle;\"><img src=\"{logo}\" width=\"60\" height=\"60\" style=\"border-radius: 5px; object-fit: cover;\" alt=\"Company Logo\"/></td><td style=\"vertical-align: middle; padding-left: 10px;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}</td></tr><tr><td colspan=\"2\" style=\"padding-top:5px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></td></tr></table>"
+    "id": "logo-and-name-side-by-side-arial",
+    "name": "Logo and Name Side-by-Side Arial",
+    "html": "<table style=\"width: 100%; max-width: 400px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"width: 70px; vertical-align: middle;\"><img src=\"{logo}\" width=\"60\" height=\"60\" style=\"border-radius: 5px; object-fit: cover;\" alt=\"Company Logo\"/></td><td style=\"vertical-align: middle; padding-left: 10px;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}</td></tr><tr><td colspan=\"2\" style=\"padding-top:5px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
   },
   {
-    "id": "classic-with-line-break",
-    "name": "Classic with Line Break",
-    "html": "<div style=\"font-family: 'Times New Roman', serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/><hr style=\"border:none; border-top:1px solid #ccc; margin: 8px 0;\"/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "classic-with-line-break-times",
+    "name": "Classic with Line Break Times",
+    "html": "<div style=\"font-family: 'Times New Roman', serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/><hr style=\"border:none; border-top:1px solid #ccc; margin: 8px 0;\"/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "modern-color-block",
-    "name": "Modern Color Block",
-    "html": "<div style=\"background-color:#e0f2f7; padding:12px; border-radius:6px; font-family: 'Roboto', sans-serif; font-size: 14px; color: #333; max-width:320px;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; color:#007bff;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "modern-color-block-roboto",
+    "name": "Modern Color Block Roboto",
+    "html": "<div style=\"background-color:#e0f2f7; padding:12px; border-radius:6px; font-family: 'Roboto', sans-serif; font-size: 14px; color: #333; max-width:320px;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px; color:#007bff;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "simple-stacked",
-    "name": "Simple Stacked",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "simple-stacked-arial",
+    "name": "Simple Stacked Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "professional-contact-block",
-    "name": "Professional Contact Block",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333; padding: 5px 0;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/><span style=\"display:block; margin-top:5px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display:block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span></div>"
+    "id": "professional-contact-block-arial",
+    "name": "Professional Contact Block Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333; padding: 5px 0;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/><span style=\"display:block; margin-top:5px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display:block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "logo-on-right-block",
-    "name": "Logo on Right Block",
-    "html": "<table style=\"width: 100%; max-width: 400px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></td><td style=\"width:90px; text-align:right; vertical-align:top;\"><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"border-radius:8px; object-fit:cover;\" alt=\"Company Logo\"/></td></tr></table>"
+    "id": "logo-on-right-block-arial",
+    "name": "Logo on Right Block Arial",
+    "html": "<table style=\"width: 100%; max-width: 400px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></td><td style=\"width:90px; text-align:right; vertical-align:top;\"><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"border-radius:8px; object-fit:cover;\" alt=\"Company Logo\"/><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
   },
   {
-    "id": "clean-name-title-company",
-    "name": "Clean Name, Title, Company",
-    "html": "<div style=\"font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "clean-name-title-company-segue",
+    "name": "Clean Name, Title, Company Segoe",
+    "html": "<div style=\"font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "subtle-grey-line",
-    "name": "Subtle Grey Line",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<div style=\"border-top:1px solid #f0f0f0; margin:5px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "subtle-grey-line-arial",
+    "name": "Subtle Grey Line Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<div style=\"border-top:1px solid #f0f0f0; margin:5px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "professional-with-website",
-    "name": "Professional with Website",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><a href=\"{website}\" style=\"color:#007bff; text-decoration:none;\">{website_display}</a></div>"
+    "id": "professional-with-website-arial",
+    "name": "Professional with Website Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><a href=\"{website}\" style=\"color:#007bff; text-decoration:none;\">{website_display}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "modern-contact-icons",
-    "name": "Modern Contact Icons",
-    "html": "<div style=\"font-family: 'Poppins', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/><span style=\"margin-right:10px;\">📞 <a href=\"tel:{phone}\" style=\"color:#333; text-decoration:none;\">{phone}</a></span><span style=\"margin-right:10px;\">✉️ <a href=\"mailto:{email}\" style=\"color:#333; text-decoration:none;\">{email}</a></span><span style=\"margin-right:10px;\">🌐 <a href=\"{website}\" style=\"color:#333; text-decoration:none;\">Website</a></span></div>"
+    "id": "modern-contact-icons-poppins-full",
+    "name": "Modern Contact Icons Poppins Full",
+    "html": "<div style=\"font-family: 'Poppins', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/><span style=\"margin-right:10px;\">📞 <a href=\"tel:{phone}\" style=\"color:#333; text-decoration:none;\">{phone}</a></span><span style=\"margin-right:10px;\">✉️ <a href=\"mailto:{email}\" style=\"color:#333; text-decoration:none;\">{email}</a></span><span style=\"margin-right:10px;\">🌐 <a href=\"{website}\" style=\"color:#333; text-decoration:none;\">Website</a></span><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "simple-logo-top",
-    "name": "Simple Logo Top",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333; text-align:left;\"><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"display:block; margin-bottom:10px; border-radius:5px; object-fit:cover;\" alt=\"Company Logo\"/><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "simple-logo-top-arial",
+    "name": "Simple Logo Top Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333; text-align:left;\"><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"display:block; margin-bottom:10px; border-radius:5px; object-fit:cover;\" alt=\"Company Logo\"/><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "bold-company-and-title",
-    "name": "Bold Company & Title",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/><strong style=\"color:#555;\">{title}</strong> at <strong style=\"color:#007bff;\">{company}</strong><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "bold-company-and-title-arial",
+    "name": "Bold Company & Title Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/><strong style=\"color:#555;\">{title}</strong> at <strong style=\"color:#007bff;\">{company}</strong><br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "professional-stacked-info",
-    "name": "Professional Stacked Info",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333; line-height:1.5;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "professional-stacked-info-arial",
+    "name": "Professional Stacked Info Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333; line-height:1.5;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "minimalist-horizontal",
-    "name": "Minimalist Horizontal",
-    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong> | {title} | {company} | 📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "minimalist-horizontal-opensans-full",
+    "name": "Minimalist Horizontal Open Sans Full",
+    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong> | {title} | {company} | 📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "clean-with-social-media-links",
-    "name": "Clean with Social Media Links",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top: 8px;\"><a href=\"{linkedin}\" style=\"text-decoration: none; color: #0077B5; margin-right: 10px;\">LinkedIn</a><a href=\"{twitter}\" style=\"text-decoration: none; color: #1DA1F2; margin-right: 10px;\">Twitter</a><a href=\"{facebook}\" style=\"text-decoration: none; color: #1877F2; margin-right: 10px;\">Facebook</a></div></div>"
+    "id": "clean-with-social-media-links-arial",
+    "name": "Clean with Social Media Links Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top: 8px;\"><a href=\"{linkedin}\" style=\"text-decoration: none; color: #0077B5; margin-right: 10px;\">LinkedIn</a><a href=\"{twitter}\" style=\"text-decoration: none; color: #1DA1F2; margin-right: 10px;\">Twitter</a><a href=\"{facebook}\" style=\"text-decoration: none; color: #1877F2; margin-right: 10px;\">Facebook</a></div><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "professional-split-line",
-    "name": "Professional Split Line",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/><div style=\"display:flex; justify-content:space-between; margin-top:5px;\"><span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span></div></div>"
+    "id": "professional-split-line-arial",
+    "name": "Professional Split Line Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/><div style=\"display:flex; justify-content:space-between; margin-top:5px;\"><span>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span></div><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "logo-left-vertical-info",
-    "name": "Logo Left Vertical Info",
-    "html": "<table style=\"width: 100%; max-width: 400px; font-family: Arial, sans-serif; font-size: 14px; color: #333; border-collapse: collapse;\"><tr><td style=\"padding-right: 15px; vertical-align: top; width: 80px;\"><img src=\"{logo}\" width=\"80\" height=\"80\" alt=\"Company Logo\" style=\"display: block; border-radius: 8px; object-fit: cover;\"></td><td style=\"vertical-align: top; padding: 0;\"><strong style=\"font-size: 16px; color: #1a1a1a; display: block;\">{name}</strong><span style=\"display: block; color: #555;\">{title}</span><span style=\"display: block; color: #777;\">{company}</span><span style=\"display: block; margin-top: 5px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span></td></tr></table>"
+    "id": "logo-left-vertical-info-arial",
+    "name": "Logo Left Vertical Info Arial",
+    "html": "<table style=\"width: 100%; max-width: 400px; font-family: Arial, sans-serif; font-size: 14px; color: #333; border-collapse: collapse;\"><tr><td style=\"padding-right: 15px; vertical-align: top; width: 80px;\"><img src=\"{logo}\" width=\"80\" height=\"80\" alt=\"Company Logo\" style=\"display: block; border-radius: 8px; object-fit: cover;\"></td><td style=\"vertical-align: top; padding: 0;\"><strong style=\"font-size: 16px; color: #1a1a1a; display: block;\">{name}</strong><span style=\"display: block; color: #555;\">{title}</span><span style=\"display: block; color: #777;\">{company}</span><span style=\"display: block; margin-top: 5px;\">📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></span><span style=\"display: block;\">✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></span><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
   },
   {
-    "id": "clean-with-accent-border",
-    "name": "Clean with Accent Border",
-    "html": "<div style=\"border:1px solid #ddd; border-left:4px solid #007bff; padding:10px; font-family: Arial, sans-serif; font-size: 14px; color: #333; max-width:300px;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "clean-with-accent-border-arial",
+    "name": "Clean with Accent Border Arial",
+    "html": "<div style=\"border:1px solid #ddd; border-left:4px solid #007bff; padding:10px; font-family: Arial, sans-serif; font-size: 14px; color: #333; max-width:300px;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "modern-line-separator",
-    "name": "Modern Line Separator",
-    "html": "<div style=\"font-family: 'Lato', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Lato&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<div style=\"border-bottom:1px solid #eee; margin:8px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "modern-line-separator-lato-full",
+    "name": "Modern Line Separator Lato Full",
+    "html": "<div style=\"font-family: 'Lato', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Lato&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<div style=\"border-bottom:1px solid #eee; margin:8px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "professional-logo-bottom",
-    "name": "Professional Logo Bottom",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><img src=\"{logo}\" width=\"100\" height=\"auto\" style=\"display:block; margin-top:10px;\" alt=\"Company Logo\"/></div>"
+    "id": "professional-logo-bottom-arial",
+    "name": "Professional Logo Bottom Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><img src=\"{logo}\" width=\"100\" height=\"auto\" style=\"display:block; margin-top:10px;\" alt=\"Company Logo\"/><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "bold-contact-info",
-    "name": "Bold Contact Info",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/><strong>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></strong> | <strong>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></strong></div>"
+    "id": "bold-contact-info-arial",
+    "name": "Bold Contact Info Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/><strong>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a></strong> | <strong>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></strong><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "clean-with-company-website",
-    "name": "Clean with Company Website",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><a href=\"{website}\" style=\"color:#007bff; text-decoration:none;\">{company_website}</a></div>"
+    "id": "clean-with-company-website-arial-full",
+    "name": "Clean with Company Website Arial Full",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><a href=\"{website}\" style=\"color:#007bff; text-decoration:none;\">{company_website}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "modern-minimal-contact",
-    "name": "Modern Minimal Contact",
-    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "modern-minimal-contact-opensans-full",
+    "name": "Modern Minimal Contact Open Sans Full",
+    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "professional-with-social-icons",
-    "name": "Professional with Social Icons",
-    "html": "<table style=\"width: 100%; max-width: 400px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top:8px;\"><a href=\"{linkedin}\" style=\"text-decoration:none; margin-right:5px;\" title=\"LinkedIn\"><img src=\"https://placehold.co/20x20/0A66C2/ffffff?text=in\" alt=\"LinkedIn\" style=\"vertical-align:middle;\"/></a> <a href=\"{twitter}\" style=\"text-decoration:none; margin-right:5px;\" title=\"Twitter\"><img src=\"https://placehold.co/20x20/1DA1F2/ffffff?text=t\" alt=\"Twitter\" style=\"vertical-align:middle;\"/></a> <a href=\"{website}\" style=\"text-decoration:none;\" title=\"Website\"><img src=\"https://placehold.co/20x20/333333/ffffff?text=W\" alt=\"Website\" style=\"vertical-align:middle;\"/></a></div></td></tr></table>"
+    "id": "professional-with-social-icons-arial",
+    "name": "Professional with Social Icons Arial",
+    "html": "<table style=\"width: 100%; max-width: 400px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"vertical-align:top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top:8px;\"><a href=\"{linkedin}\" style=\"text-decoration:none; margin-right:5px;\" title=\"LinkedIn\"><img src=\"https://placehold.co/20x20/0A66C2/ffffff?text=in\" alt=\"LinkedIn\" style=\"vertical-align:middle;\"/></a> <a href=\"{twitter}\" style=\"text-decoration:none; margin-right:5px;\" title=\"Twitter\"><img src=\"https://placehold.co/20x20/1DA1F2/ffffff?text=t\" alt=\"Twitter\" style=\"vertical-align:middle;\"/></a> <a href=\"{website}\" style=\"text-decoration:none;\" title=\"Website\"><img src=\"https://placehold.co/20x20/333333/ffffff?text=W\" alt=\"Website\" style=\"vertical-align:middle;\"/></a></div><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
   },
   {
-    "id": "clean-two-line-contact",
-    "name": "Clean Two-Line Contact",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "clean-two-line-contact-arial-full",
+    "name": "Clean Two-Line Contact Arial Full",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "elegant-serif-signature",
-    "name": "Elegant Serif Signature",
-    "html": "<div style=\"font-family: 'Georgia', serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "elegant-serif-signature-georgia-full",
+    "name": "Elegant Serif Signature Georgia Full",
+    "html": "<div style=\"font-family: 'Georgia', serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "professional-with-logo-and-social",
-    "name": "Professional with Logo and Social",
-    "html": "<table style=\"width: 100%; max-width: 400px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"width: 80px; vertical-align: top;\"><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"border-radius: 8px; object-fit: cover;\" alt=\"Company Logo\"/></td><td style=\"padding-left: 15px; vertical-align: top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top:8px;\"><a href=\"{linkedin}\" style=\"text-decoration:none; margin-right:5px;\" title=\"LinkedIn\"><img src=\"https://placehold.co/20x20/0A66C2/ffffff?text=in\" alt=\"LinkedIn\" style=\"vertical-align:middle;\"/></a> <a href=\"{twitter}\" style=\"text-decoration:none; margin-right:5px;\" title=\"Twitter\"><img src=\"https://placehold.co/20x20/1DA1F2/ffffff?text=t\" alt=\"Twitter\" style=\"vertical-align:middle;\"/></a></div></td></tr></table>"
+    "id": "professional-with-logo-and-social-arial",
+    "name": "Professional with Logo and Social Arial",
+    "html": "<table style=\"width: 100%; max-width: 400px; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><tr><td style=\"width: 80px; vertical-align: top;\"><img src=\"{logo}\" width=\"80\" height=\"80\" style=\"border-radius: 8px; object-fit: cover;\" alt=\"Company Logo\"/></td><td style=\"padding-left: 15px; vertical-align: top;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top:8px;\"><a href=\"{linkedin}\" style=\"text-decoration:none; margin-right:5px;\" title=\"LinkedIn\"><img src=\"https://placehold.co/20x20/0A66C2/ffffff?text=in\" alt=\"LinkedIn\" style=\"vertical-align:middle;\"/></a> <a href=\"{twitter}\" style=\"text-decoration:none; margin-right:5px;\" title=\"Twitter\"><img src=\"https://placehold.co/20x20/1DA1F2/ffffff?text=t\" alt=\"Twitter\" style=\"vertical-align:middle;\"/></a></div><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></td></tr></table>"
   },
   {
-    "id": "modern-compact-signature",
-    "name": "Modern Compact Signature",
-    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 13px; color: #333; line-height:1.4;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:15px;\">{name}</strong> | {title} | {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "modern-compact-signature-opensans-full",
+    "name": "Modern Compact Signature Open Sans Full",
+    "html": "<div style=\"font-family: 'Open Sans', sans-serif; font-size: 13px; color: #333; line-height:1.4;\"><link href=\"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:15px;\">{name}</strong> | {title} | {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 12px;\">📍 {address}</span></div>"
   },
   {
-    "id": "professional-bordered-contact",
-    "name": "Professional Bordered Contact",
-    "html": "<div style=\"border:1px solid #ccc; padding:10px; border-radius:5px; font-family: Arial, sans-serif; font-size: 14px; color: #333; max-width:300px;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "professional-bordered-contact-arial",
+    "name": "Professional Bordered Contact Arial",
+    "html": "<div style=\"border:1px solid #ccc; padding:10px; border-radius:5px; font-family: Arial, sans-serif; font-size: 14px; color: #333; max-width:300px;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "clean-with-accent-text",
-    "name": "Clean with Accent Text",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/><span style=\"color:#007bff;\">{title}</span> at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "clean-with-accent-text-arial",
+    "name": "Clean with Accent Text Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/><span style=\"color:#007bff;\">{title}</span> at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "professional-centered-logo",
-    "name": "Professional Centered Logo",
-    "html": "<div style=\"text-align:center; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><img src=\"{logo}\" width=\"90\" height=\"90\" style=\"display:block; margin:0 auto 10px auto; border-radius:50%; object-fit:cover;\" alt=\"Company Logo\"/><strong style=\"font-size:16px; display:block;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "professional-centered-logo-arial",
+    "name": "Professional Centered Logo Arial",
+    "html": "<div style=\"text-align:center; font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><img src=\"{logo}\" width=\"90\" height=\"90\" style=\"display:block; margin:0 auto 10px auto; border-radius:50%; object-fit:cover;\" alt=\"Company Logo\"/><strong style=\"font-size:16px; display:block;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "modern-thin-line",
-    "name": "Modern Thin Line",
-    "html": "<div style=\"font-family: 'Roboto', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<div style=\"border-bottom:1px solid #ddd; margin:5px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "modern-thin-line-roboto-full",
+    "name": "Modern Thin Line Roboto Full",
+    "html": "<div style=\"font-family: 'Roboto', sans-serif; font-size: 14px; color: #333;\"><link href=\"https://fonts.googleapis.com/css2?family=Roboto&display=swap\" rel=\"stylesheet\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<div style=\"border-bottom:1px solid #ddd; margin:5px 0;\"></div>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "professional-contact-details",
-    "name": "Professional Contact Details",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a></div>"
+    "id": "professional-contact-details-arial",
+    "name": "Professional Contact Details Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title}<br/>{company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a><br/>✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   },
   {
-    "id": "clean-with-social-media",
-    "name": "Clean with Social Media",
-    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top: 8px;\"><a href=\"{linkedin}\" style=\"text-decoration: none; color: #0077B5; margin-right: 10px;\">LinkedIn</a><a href=\"{twitter}\" style=\"text-decoration: none; color: #1DA1F2; margin-right: 10px;\">Twitter</a></div></div>"
+    "id": "clean-with-social-media-arial",
+    "name": "Clean with Social Media Arial",
+    "html": "<div style=\"font-family: Arial, sans-serif; font-size: 14px; color: #333;\"><strong style=\"font-size:16px;\">{name}</strong><br/>{title} at {company}<br/>📞 <a href=\"tel:{phone}\" style=\"color: #333; text-decoration: none;\">{phone}</a> | ✉️ <a href=\"mailto:{email}\" style=\"color: #333; text-decoration: none;\">{email}</a><br/><div style=\"margin-top: 8px;\"><a href=\"{linkedin}\" style=\"text-decoration: none; color: #0077B5; margin-right: 10px;\">LinkedIn</a><a href=\"{twitter}\" style=\"text-decoration: none; color: #1DA1F2; margin-right: 10px;\">Twitter</a></div><br/><span style=\"color: #777; font-size: 13px;\">📍 {address}</span></div>"
   }
 ]
