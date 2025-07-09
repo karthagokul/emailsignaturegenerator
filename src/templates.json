@@ -1,0 +1,12 @@
+[
+  {
+    "id": "clean-left",
+    "name": "Clean Left",
+    "html": "<table><tr><td><img src='{logo}' width='80' /></td><td><strong>{name}</strong><br />{title} at {company}<br />📞 {phone} | ✉️ {email}</td></tr></table>"
+  },
+  {
+    "id": "minimal-center",
+    "name": "Minimal Center",
+    "html": "<div style='text-align:center;font-family:sans-serif;'><img src='{logo}' width='80' /><br /><strong>{name}</strong><br />{title}<br />{company}<br />📞 {phone} | ✉️ {email}</div>"
+  }
+]
